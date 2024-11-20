@@ -1,7 +1,7 @@
 'use client';
 
-import Link from "next/link";
-import { SlGlobe } from "react-icons/sl";
+// import Link from "next/link";
+// import { SlGlobe } from "react-icons/sl";
 import { motion } from "framer-motion";
 
 const LINK_URL = "https://www.Pilot Association.in";
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute bottom-5">
+      {/* <div className="absolute bottom-5">
         <ul className="flex space-x-3">
           <li>
             <Link href={LINK_URL}>
@@ -62,7 +62,7 @@ export default function Home() {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
     </main>
   );
 }
